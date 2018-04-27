@@ -58,7 +58,6 @@
     <WarningLevel>4</WarningLevel>
     <MtouchArch>ARMv7k</MtouchArch>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
-    <CodesignProvision></CodesignProvision>
     <CodesignKey>iPhone Developer</CodesignKey>
     <MtouchEnableBitcode>true</MtouchEnableBitcode>
     <MtouchUseLlvm>true</MtouchUseLlvm>
