@@ -76,8 +76,7 @@
     <ConsolePause>false</ConsolePause>
     <MtouchArch>ARMv7, ARM64</MtouchArch>
     <IpaIncludeArtwork>true</IpaIncludeArtwork>
-    <CodesignKey>iPhone Distribution</CodesignKey>
-    <CodesignProvision>Automatic:AdHoc</CodesignProvision>
+    <CodesignKey>iPhone Developer</CodesignKey>
     <BuildIpa>true</BuildIpa>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
   </PropertyGroup>
@@ -89,9 +88,8 @@
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
     <MtouchArch>ARMv7, ARM64</MtouchArch>
-    <CodesignProvision>ba6dab2b-79e9-4e8b-b0f9-174570093692</CodesignProvision>
-    <CodesignKey>iPhone Distribution: Xamarin Inc (7V723M9SQ5)</CodesignKey>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
+    <CodesignKey>iPhone Developer</CodesignKey>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

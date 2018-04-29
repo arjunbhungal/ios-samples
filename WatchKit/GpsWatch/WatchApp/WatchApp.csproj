@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
-    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{D73F8E79-B4DD-4AB0-A767-D9FA3E2FE740};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectTypeGuids>{D73F8E79-B4DD-4AB0-A767-D9FA3E2FE740};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <ProjectGuid>{447DDC3C-AFD1-480F-B1D3-E8B9ED0DBA62}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>WatchApp</RootNamespace>
@@ -73,8 +73,7 @@
     <ConsolePause>false</ConsolePause>
     <MtouchArch>ARMv7, ARM64</MtouchArch>
     <IpaIncludeArtwork>true</IpaIncludeArtwork>
-    <CodesignKey>iPhone Distribution</CodesignKey>
-    <CodesignProvision>Automatic:AdHoc</CodesignProvision>
+    <CodesignKey>iPhone Developer</CodesignKey>
     <BuildIpa>true</BuildIpa>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
   </PropertyGroup>
@@ -86,11 +85,9 @@
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
     <MtouchArch>ARMv7, ARM64</MtouchArch>
-    <CodesignProvision>ba6dab2b-79e9-4e8b-b0f9-174570093692</CodesignProvision>
-    <CodesignKey>iPhone Distribution: Xamarin Inc (7V723M9SQ5)</CodesignKey>
-    <MtouchUseRefCounting>true</MtouchUseRefCounting>
     <MtouchI18n></MtouchI18n>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
+    <CodesignKey>iPhone Developer</CodesignKey>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
