@@ -76,33 +76,6 @@
     <OnDemandResourcesInitialInstallTags>Istanbul</OnDemandResourcesInitialInstallTags>
     <OnDemandResourcesPrefetchOrder>Paris</OnDemandResourcesPrefetchOrder>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Ad-Hoc|iPhone' ">
-    <DebugType>none</DebugType>
-    <Optimize>True</Optimize>
-    <OutputPath>bin\iPhone\Ad-Hoc</OutputPath>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <ConsolePause>False</ConsolePause>
-    <MtouchArch>ARMv7, ARM64</MtouchArch>
-    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
-    <BuildIpa>True</BuildIpa>
-    <CodesignKey>iPhone Developer</CodesignKey>
-    <OnDemandResourcesInitialInstallTags>Istanbul</OnDemandResourcesInitialInstallTags>
-    <OnDemandResourcesPrefetchOrder>Paris</OnDemandResourcesPrefetchOrder>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'AppStore|iPhone' ">
-    <DebugType>none</DebugType>
-    <Optimize>True</Optimize>
-    <OutputPath>bin\iPhone\AppStore</OutputPath>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <ConsolePause>False</ConsolePause>
-    <MtouchArch>ARMv7, ARM64</MtouchArch>
-    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
-    <CodesignKey>iPhone Developer</CodesignKey>
-    <OnDemandResourcesInitialInstallTags>Istanbul</OnDemandResourcesInitialInstallTags>
-    <OnDemandResourcesPrefetchOrder>Paris</OnDemandResourcesPrefetchOrder>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
